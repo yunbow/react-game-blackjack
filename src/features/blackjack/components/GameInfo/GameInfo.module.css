@@ -1,0 +1,15 @@
+.gameInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background: var(--color-muted);
+  padding: 15px;
+  border-radius: var(--radius);
+}
+
+@media (max-width: 600px) {
+  .gameInfo {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

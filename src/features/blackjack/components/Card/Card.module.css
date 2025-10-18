@@ -1,0 +1,28 @@
+.card {
+  width: 60px;
+  height: 84px;
+  background: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  box-shadow: var(--shadow-md);
+}
+
+.red {
+  color: var(--color-destructive);
+}
+
+.black {
+  color: var(--color-card-foreground);
+}
+
+.back {
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+}

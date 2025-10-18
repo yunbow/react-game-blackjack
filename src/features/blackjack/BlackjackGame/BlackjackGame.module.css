@@ -1,0 +1,42 @@
+.container {
+  font-family: var(--font-sans);
+  background: var(--color-background);
+  margin: 0;
+  padding: 20px;
+  color: var(--color-foreground);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameContainer {
+  background: var(--color-card);
+  border-radius: var(--radius);
+  padding: 30px;
+  box-shadow: var(--shadow-2xl);
+  max-width: 800px;
+  width: 100%;
+}
+
+.gameArea {
+  margin: 20px 0;
+}
+
+.message {
+  text-align: center;
+  margin: 15px 0;
+  min-height: 30px;
+}
+
+.win {
+  color: var(--color-accent);
+}
+
+.lose {
+  color: var(--color-destructive);
+}
+
+.push {
+  color: var(--color-secondary-foreground);
+}
